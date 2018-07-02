@@ -73,7 +73,7 @@ a.btn:hover {
 /* Header */
 
 header {
-    height: 430px;
+    height: 431px;
     background: #cf0004 url(../images/banner_1200.jpg) no-repeat center bottom;
     position: relative;
 }
@@ -159,16 +159,16 @@ section.main aside .content p a {
     color: #cc6633;
 }
 
-section.main aside .content.about {
-    background-image: url(../images/me.jpg);
+section.main aside .content.education {
+    background-image: url(../images/education.png);
 }
 
-section.main aside .content.knowledge-corner {
-    background-image: url(../images/knowledge-corner.jpg);
+section.main aside .content.work-experience {
+    background-image: url(../images/work-experience.png);
 }
 
-section.main aside .content.useful-sites {
-    background-image: url(../images/useful-sites.png);
+section.main aside .content.skills {
+    background-image: url(../images/skills.png);
 }
 
 /* Section - Resume */
@@ -186,44 +186,44 @@ section.resume article {
     min-height: 220px;
 }
 
-/* Section - Products */
+/* Section - projects */
 
-section.products {
+section.projects {
     background-color: #eee9d9;
     position: relative;
 }
 
-section.products aside {
+section.projects aside {
     width: 30%;
     float: left;
     margin-right: 10px;
 }
 
-section.products aside .content {
+section.projects aside .content {
     padding: 30px 30px 20px 0;
 }
 
-section.products aside .content img {
+section.projects aside .content img {
     display: block;
     margin-bottom: 15px;
     width: 70%;
 }
 
-section.products aside .content h4 {
+section.projects aside .content h4 {
     margin-bottom: 0;
 }
 
-section.products aside .content p {
+section.projects aside .content p {
     margin-bottom: .5em;
 }
 
-section.products aside .content a {
+section.projects aside .content a {
     display: inline-block;
     color: #cc6633;
     font-weight: 700;
 }
 
-section.products blockquote {
+section.projects blockquote {
     margin: 0;
     width: 32%;
     color: #444;
@@ -233,16 +233,16 @@ section.products blockquote {
     right: 4%;
 }
 
-section.products blockquote p {
+section.projects blockquote p {
     margin: 30px 30px 20px 50px;
 }
 
-section.products blockquote p.quote {
+section.projects blockquote p.quote {
     font-style: italic;
     font-size: 1.2em;
 }
 
-section.products blockquote p.credit {
+section.projects blockquote p.credit {
     color: #777;
     font-style: .9em;
     margin-top: 0;
@@ -251,7 +251,7 @@ section.products blockquote p.credit {
     position: relative;
 }
 
-section.products blockquote::before {
+section.projects blockquote::before {
     content: '\201c';
     color: #d2bd65;
     position: absolute;
@@ -261,12 +261,12 @@ section.products blockquote::before {
     font-family: serif;
 }
 
-section.products blockquote p.quote::after {
+section.projects blockquote p.quote::after {
     content: '\201d';
     font-family: serif;
 }
 
-section.products blockquote p.credit::before {
+section.projects blockquote p.credit::before {
     content: '\2014';
     position: absolute;
     top: -1px;
@@ -443,12 +443,12 @@ footer a .purple {
         background-size: 300px auto;
     }
 
-    section.products blockquote p.quote {
+    section.projects blockquote p.quote {
         font-size: 1.1em;
         line-height: 1.2em;
     }
 
-    section.products blockquote p.credit {
+    section.projects blockquote p.credit {
         font-size: .85em;
     }
 }
@@ -491,7 +491,7 @@ footer a .purple {
         padding-top: 60px;
     }
 
-    section.products aside div.content img {
+    section.projects aside div.content img {
         width: 85%;
     }
 
@@ -563,22 +563,22 @@ footer a .purple {
         min-height: initial;
     }
 
-    section.products aside {
+    section.projects aside {
         width: 100%;
         float: none;
         margin: 0;
         position: relative;
     }
 
-    section.products aside div.content {
+    section.projects aside div.content {
         padding: 20px 20px 20px 150px;
     }
 
-    section.products aside div.content p {
+    section.projects aside div.content p {
         font-size: .9em;
     }
 
-    section.products aside div.content img{
+    section.projects aside div.content img{
         display: inline-block;
         width: 125px;
         position: absolute;
@@ -586,14 +586,14 @@ footer a .purple {
         left: 0px;
     }
 
-    section.products blockquote {
+    section.projects blockquote {
         margin: 0 20px 0 40px;
         width: 90%;
         padding: 1px 0px 20px 0px;
         position: relative;
     }
 
-    section.products blockquote p.credit {
+    section.projects blockquote p.credit {
         margin-bottom: 0;
     }
 
@@ -631,7 +631,7 @@ footer a .purple {
     }
 
     nav ul li a:hover {
-        background-color: 1px solid rgba(255,255,255,.2);
+        background-color: rgba(255,255,255,.2);
     }
 
     nav ul ul {
@@ -664,7 +664,7 @@ footer a .purple {
 
     header {
         height: 110px;
-        background-image: url(../images/banner_425.jpg);
+        /* background-image: url(../images/banner_425.jpg); */
     }
 
     header a.logo {
@@ -694,17 +694,17 @@ footer a .purple {
         display: none;
     }
 
-    section.products aside div.content {
+    section.projects aside div.content {
         padding: 140px 20px 20px 0px;
     }
 
-    section.products aside div.content img{
+    section.projects aside div.content img{
         width: auto;
         height: 100px;
         top: 30px;
     }
 
-    section.products blockquote {
+    section.projects blockquote {
         margin: 10px 40px 0 20px;
     }
 
