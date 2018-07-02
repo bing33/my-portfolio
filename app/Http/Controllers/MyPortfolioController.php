@@ -28,10 +28,26 @@ class MyPortfolioController extends Controller
 
     public function showSkills()
     {
-        return view( 'skills');
+        return view('skills');
     }
 
-    public function downloadResume(){
-        return 'Resume';
+    public function showOtherProjects()
+    {
+        return view('other-projects');
+    }
+
+    public function showProject1()
+    {
+        return view('project-1');
+    }
+
+    public function showProject2()
+    {
+        return view('project-2');
+    }
+
+    public function downloadResume()
+    {
+        return 'Download Resume - Coming Soon';
     }
 }

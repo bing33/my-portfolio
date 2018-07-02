@@ -23,16 +23,10 @@ Route::get('/work-experience', 'MyPortfolioController@showWorkExperience');
 
 Route::get('/skills', 'MyPortfolioController@showSkills');
 
-Route::get('/other-projects', function () {
-    return 'Other Projects';
-});
+Route::get('/other-projects', 'MyPortfolioController@showOtherProjects');
 
-Route::get('/project-1', function () {
-    return 'Project 1';
-});
+Route::get('/project-1', 'MyPortfolioController@showProject1');
 
-Route::get('/project-2', function () {
-    return 'Project 2';
-});
+Route::get('/project-2', 'MyPortfolioController@showProject2');
 
 Route::get('/resume', 'MyPortfolioController@downloadResume');
